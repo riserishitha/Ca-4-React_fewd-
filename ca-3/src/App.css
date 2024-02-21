@@ -1,0 +1,81 @@
+/* Giving styles for the application. */
+*{
+  border: 0px;
+  margin: 0px;
+}
+.title{
+  color: rgb(176, 185, 41);
+  text-align: center;
+  margin: 0px;
+}
+.page{
+  height: 100vh;
+}
+.boby_main{
+  height: 400px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 50px;
+  background-color: pink;
+}
+.view_btn{
+  margin-left:85% ;
+  margin-top: 2%;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #d45555;
+  cursor: pointer;
+  color: white;
+}
+.options {
+  width: 90%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 5px;
+  background-color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; 
+}
+.options:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.highligthers button{
+  margin-top: 10px;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.result_main{
+  margin: 35%;
+  margin-top: 5%;
+  background-color:pink;
+  color: rgb(19, 18, 18);
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+}
+.reset{
+  padding: 5px;
+  margin-bottom: 10%;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media only screen and (min-width: 230px) and (max-width: 700px) {
+  .result_main{
+    margin: 10%;
+  }
+  .boby_main{
+    margin: 20px;
+  }
+  .page{
+    height: 100vh;
+  }
+}
