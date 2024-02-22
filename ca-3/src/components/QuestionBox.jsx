@@ -55,6 +55,7 @@ function QuestionBox() {
     <div className="page" style={themeStyle}>
       <h1 className="title">📚 Quiz App 📚</h1>
       <div>
+      <img src="https://play-lh.googleusercontent.com/wCowMsMZ07FawwZrQoqNuXHL5ArK-wM8ULhFwQqmunVuXhyN-PdNft3Ksj2gcBJbVqo" alt="" />
         <button className="view_btn" onClick={onClicking}>
           {theme}
         </button>
@@ -91,6 +92,7 @@ function QuestionBox() {
             <br />
             <h3>
               {que} out of 5 - Your Score({score}%)
+              <p>{ score < 60 ? "Try hard next time!!" : "You did well!!"}</p>
             </h3>
             <br />
             <br />
